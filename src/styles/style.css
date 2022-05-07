@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+header .container {
+    padding: 38px 0 45px;
+    border-bottom: 1px solid #EFEEF3;
+}
+
+.svg-logo svg {
+    max-width: 188px;
+}
+
+.head {
+    margin-bottom: 55px;
+}
+
+.text {
+    font-size: 16px;
+    color: #7690A8;
+    margin-bottom: 17px;
+}
+
+.text.h {
+    font-size: 40px;
+    color: #16133D;
+    margin-bottom: 35px;
+}
+
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group1,
+.group2,
+.group3 {
+    width: 360px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    padding-top: 41px;
+    padding-left: 41px;
+}
+
+.group1:hover {
+    border: 1px solid #3DB370;
+}
+
+.group2:hover {
+    border: 1px solid #3DB370;
+}
+
+.group3:hover {
+    border: 1px solid #3DB370;
+}
+
+.svg-holder:hover {
+    border: 1px solid #3DB370;
+}
+
+.svg-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    margin-bottom: 28px;
+}
+
+.text.h2{
+    margin-bottom: 14px;
+    color: #16133D;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-holder {
+    max-width: 274px;
+    font-size: 16px;
+    color: #16133D;
+    margin-bottom: 29px;
+}
+
+.button {
+    margin-bottom: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: #16133D;
+    font-size: 16px;
+}
+
+.main {
+    margin-bottom: 69px;
+}
+
+footer {
+    padding-top: 36px;
+    padding-bottom: 41px;
+    background-color: #16133D;
+}
+
+.svg-logo-footer {
+    margin-bottom: 40px;
+}
+
+.svg-logo-footer svg {
+    max-width: 188px;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.svg-holder:hover .last-path {
+    fill: #3DB370;
+}
+
+.svg-sprite {
+    background-image: url('../img/svg-sprite.svg');
+    display: inline-block;
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.svg-sprite.screen {
+    background-position: -23px 1px ;
+}
+
+.svg-sprite.hd {
+    background-position: -71px -95px;    
+}
+
+.svg-sprite.dvr {
+    background-position: -47px -71px;    
+}
+
+.svg-sprite.ps {
+    background-position: -47px -95px;    
+}
